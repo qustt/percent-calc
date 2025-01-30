@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="evice-initial-scale=1.0">
+    <title>Калькулятор отзывов</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="screen">
+            <p class="text">Введите число и выберите тип чеков:</p>
+            <p class="number"></p>
+        </div>
+        <ul class="buttons">
+            <li onclick="addNumber(7)" class="button numbers">7</li>
+            <li onclick="addNumber(8)" class="button numbers">8</li>
+            <li onclick="addNumber(9)" class="button numbers">9</li>
+            <li onclick="addNumber(4)" class="button numbers">4</li>
+            <li onclick="addNumber(5)" class="button numbers">5</li>
+            <li onclick="addNumber(6)" class="button numbers">6</li>
+            <li onclick="addNumber(1)" class="button numbers">1</li>
+            <li onclick="addNumber(2)" class="button numbers">2</li>
+            <li onclick="addNumber(3)" class="button numbers">3</li>
+            <li onclick="addNumber(0)" class="button numbers">0</li>
+            <li onclick="next()" class="button next-button">Расчет</li>
+            <li onclick="reset()" class="button reset">Сброс</li>
+            <li onclick="minusans()" class="button next-button">Отр.</li>
+            <li onclick="allans()" class="button next-button">Всего</li>
+        </ul>
+        
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
